@@ -1,0 +1,10 @@
+/home/cihan/yazilimCalismalari/E-Shop/bin/Debug/netcoreapp2.0/E-Shop.deps.json
+/home/cihan/yazilimCalismalari/E-Shop/bin/Debug/netcoreapp2.0/E-Shop.runtimeconfig.json
+/home/cihan/yazilimCalismalari/E-Shop/bin/Debug/netcoreapp2.0/E-Shop.runtimeconfig.dev.json
+/home/cihan/yazilimCalismalari/E-Shop/bin/Debug/netcoreapp2.0/E-Shop.dll
+/home/cihan/yazilimCalismalari/E-Shop/bin/Debug/netcoreapp2.0/E-Shop.pdb
+/home/cihan/yazilimCalismalari/E-Shop/obj/Debug/netcoreapp2.0/E-Shop.csproj.CoreCompileInputs.cache
+/home/cihan/yazilimCalismalari/E-Shop/obj/Debug/netcoreapp2.0/E-Shop.AssemblyInfoInputs.cache
+/home/cihan/yazilimCalismalari/E-Shop/obj/Debug/netcoreapp2.0/E-Shop.AssemblyInfo.cs
+/home/cihan/yazilimCalismalari/E-Shop/obj/Debug/netcoreapp2.0/E-Shop.dll
+/home/cihan/yazilimCalismalari/E-Shop/obj/Debug/netcoreapp2.0/E-Shop.pdb
