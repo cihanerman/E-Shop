@@ -6,5 +6,8 @@ namespace E_Shop.Models {
         public decimal Price { get; set; }
         public int Stock { get; set; }
         public string PruductImageUrl { get; set; }
+
+        public int CatogoryId { get; set; }
+        public Catogory Catogory { get; set; }
     }
 }
