@@ -15,7 +15,7 @@ namespace E_Shop.Controllers
            return View();
        }
 
-       public IActionResult Buy(List<int> ProductId, int UserId)
+       public IActionResult Buy(Dictionary<string,int> ProductNames, int UserId)
        {
            using (EShopContext context = new EShopContext())
            {
@@ -24,8 +24,17 @@ namespace E_Shop.Controllers
                context.SaveChanges();
 
                var orders = new OrderProduct();
-               orders.ProductIds = ProductId;
-               orders.OrderId = order.OrderId;
+
+               foreach (var productName in ProductNames)
+               {
+                    var product = context.Products.SingleOrDefault(pro => pro.ProductName == productName.Key);
+                    orders.ProductId = product.ProductId;
+                    orders.OrderId = order.OrderId;
+                    orders.Piece = productName.Value;
+                }
+
+
+                   
                context.SaveChanges();
            }
            return Content("Siparişiniz Başarıyla Alındı.");
